@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "./Student_register.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/.*",
+        "dest": "Student_register.js"
+      }
+    ]
+  }

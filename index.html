@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Online Attendance</title>
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background:black;
+        color: tan;
+      }
+
+      .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .center
+      {
+        align-content:center;
+        padding:auto;
+        margin:auto;
+      }
+      .logo img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      video {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .button,
+      .button1 {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .button button,
+      .button1 button {
+        font-size: 24px;
+        width: 200px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .button button,
+        .button1 button {
+          font-size: 20px;
+          width: 150px;
+        }
+      }
+
+      @media only screen and (max-width: 480px) {
+        .button button,
+        .button1 button {
+          font-size: 18px;
+          width: 120px;
+        }
+      }
+      .card {
+              margin: 0 auto;
+              float: none;
+              margin-bottom: 10px; 
+              
+      }
+      .strong
+      {
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="https://ldce.ac.in/">
+          <img src="https://pbs.twimg.com/profile_images/596356566892163072/IsoCmLYi_400x400.png" alt="LD College Ahmedabad" width="40" height="40">
+          <strong> LD College Of Engineering Ahmedabad</strong>
+        </a>
+      </div>
+    </nav>
+  </br>
+  </br>
+  <div class="center">
+    <div class="card" style="align-content: center; width: 50rem;">
+      <video autoplay loop muted plays-inline class="card-img-top">
+        <source
+          src="\WhatsApp Video 2024-03-06 at 22.49.38_766614bf.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="card-body">
+        <h2 class="card-title" style="color:black; font-weight:20px">Attendence</h2>
+        <a href="/login" class="btn btn-dark">Student</a>
+        <a href="/professor_login" class="btn btn-dark">Professor</a>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  </body>
+</html>
