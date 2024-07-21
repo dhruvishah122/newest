@@ -39,8 +39,9 @@
   "main": "index.js",
   "scripts": {
     "golive": "lt --port 8080",
+    "build": "npm i",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "/src/views/index.js"
+    "start" : "index.js"
   },
   "author": "",
   "license": "ISC",
