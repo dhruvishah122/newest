@@ -19,7 +19,7 @@ const path=require("path");
 app.set("views",path.join(__dirname,"/"));
 
 const http = require('http');
-const port=process.env.PORT;
+const port=process.env.PORT || 4000;
 
 const Nexmo = require('nexmo');
 
